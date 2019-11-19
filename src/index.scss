@@ -1,0 +1,627 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
+// Colors
+$color-primary: #343a41;
+$color-primary-dark: #31363b;
+$color-primary-dark-2: #252a2e;
+
+$color-secondary: #22262a;
+
+$color-footer: #171a1d;
+
+$color-text: #94a4b4;
+$color-text-dark: #5b6570;
+
+$color-white: #fff;
+$color-black: #000;
+$color-gray: #565f69;
+
+$color-linkedin: #0077b5;
+$color-github: #333;
+$color-email: #6fc2b0;
+$color-twitter: #33a1f2;
+$color-fcc: #1b1b32;
+
+$color-scroll: #565f69;
+
+// Cubic Beziers
+$cubic-bezier-primary: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+// Layers
+$layer-burger: 1000;
+$layer-navigation: 900;
+$layer-modal: 800;
+$layer-contact: 700;
+
+// Fonts
+$font-primary: Staatliches, sans-serif;
+$font-secondary: Inconsolata, sans-serif;
+
+// Grid
+$grid-width: 100%;
+$gutter-vertical: 6rem;
+$gutter-horizontal: 6rem;
+
+#root {
+  min-height: 100%;
+  padding: 1.5rem;
+  background-color: $color-secondary;
+  user-select: none;
+  position: relative;
+}
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.brand {
+  width: 10rem;
+  height: 6rem;
+  display: block;
+
+  @media only screen and (min-width: 100em) {
+    width: 15rem;
+    height: 9rem;
+  }
+
+  &__img {
+    width: 100%;
+    // height: 100%;
+  }
+}
+
+// BASE
+
+// Normalization
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// Definition for 1rem
+html {
+  height: 100%;
+  font-size: 62.5%;
+  @media only screen and (max-width: 62.5em) {
+    font-size: 55.5%;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    font-size: 50%;
+  }
+
+  @media only screen and (min-width: 143.75em) {
+    font-size: 90%;
+  }
+
+  @media only screen and (min-width: 187.5em) {
+    font-size: 110%;
+  }
+
+  @media only screen and (min-width: 237.5em) {
+    font-size: 120%;
+  }
+}
+
+// Body
+body {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  width: 90%;
+  margin: 2.5rem auto;
+  margin-bottom: 8rem;
+
+  @media only screen and (max-width: 62.5em) {
+    width: 85%;
+  }
+
+  @media only screen and (max-width: 31.25em) {
+    width: 78%;
+  }
+
+  @media only screen and (min-width: 87.5em) {
+    width: 120rem;
+  }
+}
+
+// Scroll
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+  background-color: $color-footer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: $color-footer;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: $color-scroll;
+}
+
+body {
+  font-family: $font-primary;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 47%;
+    flex: 0 0 47%;
+    max-width: 50%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.primary-header {
+  margin: 0;
+  font-size: 10.5rem;
+  color: $color-text-dark;
+  letter-spacing: 4px;
+
+  @media only screen and (max-width: 62.5em) {
+    font-size: 8rem;
+  }
+
+  @media only screen and (max-width: 44.375em) {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: 31.25em) {
+    span {
+      display: block;
+    }
+  }
+}
+
+.secondary-header {
+  font-size: 4rem;
+  color: $color-white;
+  letter-spacing: 2px;
+  user-select: text;
+
+  opacity: 1;
+  visibility: visible;
+  transition: all 300ms ease-out;
+}
+
+.secondary-sub {
+  font-family: $font-secondary;
+  font-size: 1.6rem;
+  color: $color-text;
+  display: inline-block;
+  margin: 1.2rem 0;
+  line-height: 1.5;
+  user-select: text;
+
+  opacity: 1;
+  visibility: visible;
+  transition: all 300ms ease-out;
+}
+
+.project {
+  overflow: hidden;
+  box-shadow: 0 0 10px $color-black;
+  opacity: 1;
+  transition: all 300ms ease-out;
+  visibility: visible;
+
+  &__item {
+    position: relative;
+  }
+
+  &:hover &__overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:hover &__img {
+    transform: scale(1.1);
+  }
+
+  &__img {
+    width: 100%;
+    transition: all 200ms;
+    &--modal {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+
+      @media only screen and (max-width: 45em) {
+        object-fit: contain;
+      }
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(transparent, rgba($color-black, 0.5));
+    transition: all 200ms;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+  }
+
+  &__buttons {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    @media only screen and (max-width: 31.25em) {
+      bottom: 0.5rem;
+    }
+  }
+
+  &__button {
+    display: inline-block;
+    text-decoration: none;
+    color: $color-secondary;
+    font-family: $font-primary;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    margin: 0 1rem;
+    background-color: rgba($color-white, 0.8);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: all 200ms;
+
+    @media only screen and (max-width: 31.25em) {
+      font-size: 1.6rem;
+    }
+    &:disabled,
+    &:disabled:hover {
+      background-color: rgba($color-white, 0.4);
+      cursor: default;
+    }
+
+    svg {
+      margin-right: 0.5rem;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: rgba($color-white, 1);
+    }
+
+    &--modal {
+      margin: 2rem 0.5rem 0 0.5rem;
+      font-size: 1.4rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+
+  &__background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $layer-modal;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color-black, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 400ms $cubic-bezier-primary;
+
+    &--show {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__modal {
+    @include absoluteCenter;
+    width: 100rem;
+    height: 50rem;
+    background-color: $color-primary;
+    user-select: text;
+    box-shadow: 0 0 5px $color-black;
+    opacity: 0;
+    transition: all 400ms 200ms $cubic-bezier-primary;
+    transform: translate(-50%, -50%) scale(0.25);
+
+    &--show {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      width: 95%;
+      min-height: 50rem;
+    }
+
+    @media only screen and (max-width: 45em) {
+      width: 43rem;
+      height: auto;
+    }
+
+    @media only screen and (max-width: 25em) {
+      width: 38rem;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background-color: transparent;
+    border: none;
+    color: $color-text;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 200ms $cubic-bezier-primary;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__left {
+    width: 60rem;
+    height: 100%;
+    display: inline-block;
+    @media only screen and (max-width: 56.25em) {
+      width: 55%;
+    }
+
+    @media only screen and (max-width: 45em) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__right {
+    width: calc(100% - 60.5rem);
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.5rem;
+    color: $color-white;
+
+    @media only screen and (max-width: 56.25em) {
+      width: 45%;
+    }
+
+    @media only screen and (max-width: 45em) {
+      width: 100%;
+    }
+  }
+
+  &__label {
+    font-size: 1.6rem;
+    color: $color-text;
+    letter-spacing: 1px;
+  }
+
+  &__name {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+
+  &__technologies {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+
+  &__technology {
+    display: inline-block;
+    margin: 0.5rem;
+    border: 1px solid $color-secondary;
+    padding: 0.5rem;
+    color: $color-text;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+  }
+  &__summary {
+    margin-top: 1rem;
+    font-family: $font-secondary;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: $color-text;
+    overflow-y: scroll;
+    height: 22rem;
+    white-space: pre-line;
+
+    &::-webkit-scrollbar-track {
+      background-color: $color-primary-dark-2;
+    }
+  }
+}
+
+.portfolio {
+  margin-top: 4rem;
+}
+
+.slide-left {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-5rem);
+}
+.slide-right {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(5rem);
+}
+
+.contact {
+  position: absolute;
+  top: 50%;
+  left: -7rem;
+  transform: translateY(-50%);
+  z-index: $layer-contact;
+
+  svg {
+    margin-bottom: -5px;
+  }
+
+  @media only screen and (min-width: 100em) {
+    left: -12.5rem;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__link {
+    &:visited,
+    &:link {
+      display: block;
+      color: $color-white;
+      font-size: 2.5rem;
+      padding: 1rem;
+      transition: all 450ms $cubic-bezier-primary;
+      text-decoration: none;
+
+      @media only screen and (max-width: 31.25em) {
+        padding: 1rem;
+      }
+
+      @media only screen and (min-width: 100em) {
+        padding: 1.5rem;
+        font-size: 2.8rem;
+      }
+    }
+
+    &--linkedin {
+      background-color: $color-linkedin;
+    }
+    &--github {
+      background-color: $color-github;
+    }
+    &--email {
+      background-color: $color-email;
+    }
+    &--twitter {
+      background-color: $color-twitter;
+    }
+    &--fcc {
+      background-color: $color-fcc;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      transform: translateX(6.4rem);
+    }
+  }
+
+  &__label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.6rem;
+    margin-right: 1.2rem;
+    width: 5.8rem;
+    letter-spacing: 1px;
+    text-align: right;
+
+    @media only screen and (min-width: 100em) {
+      width: 10.8rem;
+    }
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: -7.5rem;
+  left: 0;
+  width: 100%;
+  padding: 3rem;
+  background: $color-footer;
+  color: $color-text;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: $font-secondary;
+  border-top: 1px solid $color-primary;
+  user-select: text;
+
+  &__item {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 8rem;
+    }
+
+    @media only screen and (max-width: 50em) {
+      display: block;
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+      text-align: left;
+    }
+  }
+
+  &__contact {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+
+    @media only screen and (max-width: 50em) {
+      &:not(:last-child) {
+        margin-right: 3rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-white;
+      text-decoration: none;
+    }
+  }
+}
