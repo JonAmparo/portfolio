@@ -12,12 +12,6 @@ function Footer() {
               jonathanmamparo@gmail.com
             </a>
           </div>
-          <div className="footer__contact">
-            Tel:{" "}
-            <a href="tel: +240-810-2462" className="footer__link">
-              +240-810-2462
-            </a>
-          </div>
         </div>
       </footer>
     </React.Fragment>
