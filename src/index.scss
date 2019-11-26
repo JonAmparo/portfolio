@@ -497,7 +497,8 @@ body {
 }
 
 .contact {
-  position: absolute;
+  position: fixed;
+  // position: absolute;
   top: 50%;
   left: -7rem;
   transform: translateY(-50%);

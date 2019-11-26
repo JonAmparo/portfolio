@@ -5,6 +5,8 @@ import logo1 from "../assets/logo1.png";
 import projectForumBlog from "../assets/projectForumBlog.png";
 import projectCar from "../assets/projectCar.png";
 import projectGym from "../assets/projectGym.png";
+import projectConstructionNicolas from "../assets/projectConstructionNicolas.png";
+import projectJarmicos from "../assets/projectJarmicos.png";
 import projectLeroy from "../assets/projectLeroy.png";
 import projectScandia from "../assets/projectScandia.png";
 
@@ -77,6 +79,24 @@ const DATA = [
     ]
   },
   {
+    name: "Construction Nicolas Avoine",
+    summary:
+      "On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.",
+    img: projectConstructionNicolas,
+    demo: "https://www.constructionnicolasavoine.ca/",
+    code: "private",
+    technologies: [
+      { name: "HTML & CSS" },
+      { name: "JavaScript" },
+      { name: "Bootstrap" },
+      { name: "JQuery" },
+      { name: "PHP" },
+      { name: "Laravel" },
+      { name: "Responsiveness" },
+      { name: "UI/UX" }
+    ]
+  },
+  {
     name: "Le Roy Du Pavage",
     summary:
       "On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.",
@@ -100,6 +120,24 @@ const DATA = [
       "On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.",
     img: projectScandia,
     demo: "https://scandiacanada.com/",
+    code: "private",
+    technologies: [
+      { name: "HTML & CSS" },
+      { name: "JavaScript" },
+      { name: "Bootstrap" },
+      { name: "JQuery" },
+      { name: "PHP" },
+      { name: "Laravel" },
+      { name: "Responsiveness" },
+      { name: "UI/UX" }
+    ]
+  },
+  {
+    name: "Jarmicos",
+    summary:
+      "On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.",
+    img: projectJarmicos,
+    demo: "https://www.jarmicos.com/",
     code: "private",
     technologies: [
       { name: "HTML & CSS" },
