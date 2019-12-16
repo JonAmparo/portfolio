@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.8ba6dd65.chunk.css",
-    "main.js": "/static/js/main.a6a340bc.chunk.js",
-    "main.js.map": "/static/js/main.a6a340bc.chunk.js.map",
+    "main.js": "/static/js/main.616b3def.chunk.js",
+    "main.js.map": "/static/js/main.616b3def.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8896086d.js",
     "runtime-main.js.map": "/static/js/runtime-main.8896086d.js.map",
     "static/js/2.055815b2.chunk.js": "/static/js/2.055815b2.chunk.js",
     "static/js/2.055815b2.chunk.js.map": "/static/js/2.055815b2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f4a1feba1cdc099b506f28665992d2bc.js": "/precache-manifest.f4a1feba1cdc099b506f28665992d2bc.js",
+    "precache-manifest.1e4b64aeb4bce8145169d830235d9328.js": "/precache-manifest.1e4b64aeb4bce8145169d830235d9328.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.8ba6dd65.chunk.css.map": "/static/css/main.8ba6dd65.chunk.css.map",
     "static/media/logo1.png": "/static/media/logo1.6c1d5708.png",
@@ -16,7 +16,7 @@
     "static/media/projectCar.png": "/static/media/projectCar.dde99215.png",
     "static/media/projectConstructionNicolas.png": "/static/media/projectConstructionNicolas.372c8067.png",
     "static/media/projectForumBlog.png": "/static/media/projectForumBlog.7f756d44.png",
-    "static/media/projectGym.png": "/static/media/projectGym.47ed853a.png",
+    "static/media/projectGym.png": "/static/media/projectGym.ed9db1dc.png",
     "static/media/projectJarmicos.png": "/static/media/projectJarmicos.963a213a.png",
     "static/media/projectLeroy.png": "/static/media/projectLeroy.efe66069.png",
     "static/media/projectScandia.png": "/static/media/projectScandia.87efe9ee.png"
@@ -25,6 +25,6 @@
     "static/js/runtime-main.8896086d.js",
     "static/js/2.055815b2.chunk.js",
     "static/css/main.8ba6dd65.chunk.css",
-    "static/js/main.a6a340bc.chunk.js"
+    "static/js/main.616b3def.chunk.js"
   ]
 }

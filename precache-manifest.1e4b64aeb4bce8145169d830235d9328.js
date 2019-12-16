@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f151936c7dbabeb44c14e4c65b6477e1",
+    "revision": "4f6e410921ce972a7d3d1b3314485725",
     "url": "/index.html"
   },
   {
-    "revision": "9cac1e57f7a0908a7f83",
+    "revision": "dbab32b32b33f030af5e",
     "url": "/static/css/main.8ba6dd65.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.055815b2.chunk.js"
   },
   {
-    "revision": "9cac1e57f7a0908a7f83",
-    "url": "/static/js/main.a6a340bc.chunk.js"
+    "revision": "dbab32b32b33f030af5e",
+    "url": "/static/js/main.616b3def.chunk.js"
   },
   {
     "revision": "0ac2b0fd5fd4af3be109",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projectForumBlog.7f756d44.png"
   },
   {
-    "revision": "47ed853a1dfe7a7e5f941d5f5ba6efd2",
-    "url": "/static/media/projectGym.47ed853a.png"
+    "revision": "ed9db1dc97918bf25c684ec26cea8b86",
+    "url": "/static/media/projectGym.ed9db1dc.png"
   },
   {
     "revision": "963a213ae5c2455d0f148c1552bfb59b",
