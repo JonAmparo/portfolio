@@ -11,19 +11,37 @@ import projectLeroy from '../assets/projectLeroy.png';
 import projectScandia from '../assets/projectScandia.png';
 
 const DATA = [
+  // {
+  //   name: 'Portfolio',
+  //   summary:
+  //     'The idea behind this project was to create a showcase of all my big projects for the past year. I tried to keep the UI as simple as possible without any fluff. \n\n This is a Single Page Application and is built using React.js and SASS with the BEM methodology.',
+  //   img: logo1,
+  //   demo: 'https://jonamparo.com',
+  //   code: 'https://github.com/jonamparo/portfolio',
+  //   technologies: [
+  //     { name: 'HTML & CSS' },
+  //     { name: 'JavaScript' },
+  //     { name: 'SASS' },
+  //     { name: 'React.JS' },
+  //     { name: 'Responsiveness' },
+  //     { name: 'UI/UX' }
+  //   ]
+  // },
   {
-    name: 'Portfolio',
+    name: 'Portfolio v2',
     summary:
-      'The idea behind this project was to create a showcase of all my big projects for the past year. I tried to keep the UI as simple as possible without any fluff. \n\n This is a Single Page Application and is built using React.js and SASS with the BEM methodology.',
+      'The idea behind this project was to create a showcase of all my big projects for the past year. I tried to keep the UI as simple as possible without any fluff. I also pull from the Github API to retrieve my profile to display it on my website. \n\n This project was inspired by Sarah Drasner. An amazing developer, designer and just an overall good person. :) ',
     img: logo1,
-    demo: 'https://jonamparo.com',
-    code: 'https://github.com/jonamparo/portfolio',
+    demo: 'https://jonamparo.github.io/v2/#/projects',
+    code: 'https://github.com/JonAmparo/v2',
     technologies: [
       { name: 'HTML & CSS' },
       { name: 'JavaScript' },
       { name: 'SASS' },
       { name: 'React.JS' },
       { name: 'Responsiveness' },
+      { name: 'Grids' },
+      { name: 'Github API' },
       { name: 'UI/UX' }
     ]
   },
