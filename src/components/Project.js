@@ -9,6 +9,8 @@ import projectConstructionNicolas from '../assets/projectConstructionNicolas.png
 import projectJarmicos from '../assets/projectJarmicos.png';
 import projectLeroy from '../assets/projectLeroy.png';
 import projectScandia from '../assets/projectScandia.png';
+import projectFylo from '../assets/projectFylo.png';
+import projectV2 from '../assets/projectV2.png';
 
 const DATA = [
   // {
@@ -28,10 +30,27 @@ const DATA = [
   //   ]
   // },
   {
+    name: 'Fylo',
+    summary:
+      "This is a project provided by frontendmentor.io. How it works is they give me the images, style guide and tools to do the project. Then I build the project to look like the design. Overall, it was a fun project to do because I didn't have to think about a design. I just put everything together.",
+    img: projectFylo,
+    demo: 'https://jonamparo.github.io/Fylo',
+    code: 'https://github.com/JonAmparo/Fylo',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'SASS' },
+      { name: 'React.JS' },
+      { name: 'Responsiveness' },
+      { name: 'Grids / Flex' },
+      { name: 'Styled Components' }
+    ]
+  },
+  {
     name: 'Portfolio v2',
     summary:
       'The idea behind this project was to create a showcase of all my big projects for the past year. I tried to keep the UI as simple as possible without any fluff. I also pull from the Github API to retrieve my profile to display it on my website. \n\n This project was inspired by Sarah Drasner. An amazing developer, designer and just an overall good person. :) ',
-    img: logo1,
+    img: projectV2,
     demo: 'https://jonamparo.github.io/v2/#/projects',
     code: 'https://github.com/JonAmparo/v2',
     technologies: [
