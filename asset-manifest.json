@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.489c9272.chunk.css",
-    "main.js": "/static/js/main.4d04eb50.chunk.js",
-    "main.js.map": "/static/js/main.4d04eb50.chunk.js.map",
+    "main.css": "/static/css/main.ccfd5b83.chunk.css",
+    "main.js": "/static/js/main.201625f3.chunk.js",
+    "main.js.map": "/static/js/main.201625f3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8896086d.js",
     "runtime-main.js.map": "/static/js/runtime-main.8896086d.js.map",
-    "static/js/2.63cd99be.chunk.js": "/static/js/2.63cd99be.chunk.js",
-    "static/js/2.63cd99be.chunk.js.map": "/static/js/2.63cd99be.chunk.js.map",
+    "static/js/2.64cb62e7.chunk.js": "/static/js/2.64cb62e7.chunk.js",
+    "static/js/2.64cb62e7.chunk.js.map": "/static/js/2.64cb62e7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8b84ee4fd32a9b0b9039ad3303118420.js": "/precache-manifest.8b84ee4fd32a9b0b9039ad3303118420.js",
+    "precache-manifest.e17a145a0d97b916930093335636a5eb.js": "/precache-manifest.e17a145a0d97b916930093335636a5eb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.489c9272.chunk.css.map": "/static/css/main.489c9272.chunk.css.map",
+    "static/css/main.ccfd5b83.chunk.css.map": "/static/css/main.ccfd5b83.chunk.css.map",
     "static/media/logo1.png": "/static/media/logo1.6c1d5708.png",
     "static/media/logo2.png": "/static/media/logo2.95131579.png",
     "static/media/projectCar.png": "/static/media/projectCar.dde99215.png",
     "static/media/projectConstructionNicolas.png": "/static/media/projectConstructionNicolas.372c8067.png",
     "static/media/projectForumBlog.png": "/static/media/projectForumBlog.7f756d44.png",
+    "static/media/projectFylo.png": "/static/media/projectFylo.579e1d74.png",
     "static/media/projectGym.png": "/static/media/projectGym.ed9db1dc.png",
     "static/media/projectJarmicos.png": "/static/media/projectJarmicos.963a213a.png",
     "static/media/projectLeroy.png": "/static/media/projectLeroy.efe66069.png",
-    "static/media/projectScandia.png": "/static/media/projectScandia.87efe9ee.png"
+    "static/media/projectScandia.png": "/static/media/projectScandia.87efe9ee.png",
+    "static/media/projectV2.png": "/static/media/projectV2.6a00b39c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8896086d.js",
-    "static/js/2.63cd99be.chunk.js",
-    "static/css/main.489c9272.chunk.css",
-    "static/js/main.4d04eb50.chunk.js"
+    "static/js/2.64cb62e7.chunk.js",
+    "static/css/main.ccfd5b83.chunk.css",
+    "static/js/main.201625f3.chunk.js"
   ]
 }
