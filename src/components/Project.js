@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaEye, FaCode, FaTimes } from 'react-icons/fa';
 import HeaderText from './HeaderText.js';
-import logo1 from '../assets/logo1.png';
 import projectForumBlog from '../assets/projectForumBlog.png';
 import projectCar from '../assets/projectCar.png';
 import projectGym from '../assets/projectGym.png';
@@ -10,6 +9,13 @@ import projectJarmicos from '../assets/projectJarmicos.png';
 import projectLeroy from '../assets/projectLeroy.png';
 import projectScandia from '../assets/projectScandia.png';
 import projectFylo from '../assets/projectFylo.png';
+import projectKids from '../assets/projectKids.png';
+import projectIllusarium from '../assets/projectIllusarium.png';
+import projectPneus from '../assets/projectPneus.png';
+import projectAux from '../assets/projectAux.png';
+import projectBien from '../assets/projectBien.png';
+import projectHarbor from '../assets/projectHarbor.png';
+import projectTibbs from '../assets/projectTibbs.png';
 import projectV2 from '../assets/projectV2.png';
 
 const DATA = [
@@ -178,6 +184,132 @@ const DATA = [
       'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
     img: projectJarmicos,
     demo: 'https://www.jarmicos.com/',
+    code: 'private',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Bootstrap' },
+      { name: 'JQuery' },
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Responsiveness' },
+      { name: 'UI/UX' }
+    ]
+  },
+  {
+    name: 'Bien Range',
+    summary:
+      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
+    img: projectBien,
+    demo: 'https://bienrange.com/en',
+    code: 'private',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Bootstrap' },
+      { name: 'JQuery' },
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Responsiveness' },
+      { name: 'UI/UX' }
+    ]
+  },
+  {
+    name: 'Kids Corner Day Care',
+    summary:
+      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
+    img: projectKids,
+    demo: 'https://www.kidscornerdaycare.ca/',
+    code: 'private',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Bootstrap' },
+      { name: 'JQuery' },
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Responsiveness' },
+      { name: 'UI/UX' }
+    ]
+  },
+  {
+    name: 'Illusarium',
+    summary:
+      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
+    img: projectIllusarium,
+    demo: 'https://www.illusarium.com/',
+    code: 'private',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Bootstrap' },
+      { name: 'JQuery' },
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Responsiveness' },
+      { name: 'UI/UX' }
+    ]
+  },
+  {
+    name: 'Aux 1000 Fleurs',
+    summary:
+      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
+    img: projectAux,
+    demo: 'https://www.aux1000fleurs.ca/',
+    code: 'private',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Bootstrap' },
+      { name: 'JQuery' },
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Responsiveness' },
+      { name: 'UI/UX' }
+    ]
+  },
+  {
+    name: 'Pneus Jobidon',
+    summary:
+      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
+    img: projectPneus,
+    demo: 'https://www.pneusjobidon.ca/',
+    code: 'private',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Bootstrap' },
+      { name: 'JQuery' },
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Responsiveness' },
+      { name: 'UI/UX' }
+    ]
+  },
+  {
+    name: 'Harbour Metals ',
+    summary:
+      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
+    img: projectHarbor,
+    demo: 'https://harbourmetals.ca/',
+    code: 'private',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Bootstrap' },
+      { name: 'JQuery' },
+      { name: 'PHP' },
+      { name: 'Laravel' },
+      { name: 'Responsiveness' },
+      { name: 'UI/UX' }
+    ]
+  },
+  {
+    name: 'Tibbs Locksmithing',
+    summary:
+      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
+    img: projectTibbs,
+    demo: 'https://www.tibbslocksmithing.ca/',
     code: 'private',
     technologies: [
       { name: 'HTML & CSS' },
