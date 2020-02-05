@@ -75,7 +75,7 @@ const DATA = [
     summary:
       "This project is inspired by the mobile application called 'Gravitus’. It’s my favorite gym application to track my workouts. I’m using this app as a way to further my understanding, correlation and project structure of React, Node, Express, MongoDB, and Redux. In this application, users can create accounts, login, create, update, read and delete their profiles. Users also have the ability to create, update, read and delete workouts! This project uses React, MongoDB, Node, Express, Redux, Webpack, SASS, JQuery, and Bootstrap.",
     img: projectGym,
-    demo: 'https://jonamparo.github.io/gravitus',
+    demo: 'https://gravitus.herokuapp.com/',
     code: 'https://github.com/jonamparo/gravitus',
     technologies: [
       { name: 'JavaScript' },
