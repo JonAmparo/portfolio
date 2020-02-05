@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40c6320f32ff523cfa82507c4ed9aed5",
+    "revision": "3511d62ec1f23413c8d33f29b1e334fc",
     "url": "/index.html"
   },
   {
-    "revision": "915d023f0316f828a976",
+    "revision": "2e59bdd9c27d9ef99e5e",
     "url": "/static/css/main.f5aa84fc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.24cef2c0.chunk.js"
   },
   {
-    "revision": "915d023f0316f828a976",
-    "url": "/static/js/main.c9f04393.chunk.js"
+    "revision": "2e59bdd9c27d9ef99e5e",
+    "url": "/static/js/main.37bc7271.chunk.js"
   },
   {
     "revision": "0ac2b0fd5fd4af3be109",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projectFylo.579e1d74.png"
   },
   {
-    "revision": "ed9db1dc97918bf25c684ec26cea8b86",
-    "url": "/static/media/projectGym.ed9db1dc.png"
+    "revision": "e1c1eb6a99ef1375f3df298a277b2d72",
+    "url": "/static/media/projectGravitus.e1c1eb6a.png"
   },
   {
     "revision": "8444eb030cc6d6bf493c016268f07d08",
