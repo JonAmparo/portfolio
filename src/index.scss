@@ -178,6 +178,7 @@ body {
 
 .space-between {
   justify-content: space-between;
+  margin: 0 3rem;
 }
 
 @media (min-width: 768px) {
@@ -663,7 +664,7 @@ body {
 }
 
 .bg-light {
-  background: rgba(0, 0, 0, 0.08);
+  background: #ffffff;
   border-radius: 3px;
 }
 

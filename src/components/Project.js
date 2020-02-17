@@ -16,6 +16,7 @@ import projectAux from '../assets/projectAux.png';
 import projectBien from '../assets/projectBien.png';
 import projectHarbor from '../assets/projectHarbor.png';
 import projectTibbs from '../assets/projectTibbs.png';
+import projectCommerce from '../assets/projectCommerce.png';
 import projectV2 from '../assets/projectV2.png';
 
 const DATA = [
@@ -35,7 +36,22 @@ const DATA = [
   //     { name: 'UI/UX' }
   //   ]
   // },
-
+  {
+    name: 'Commerce Store',
+    summary: `This project is built using an eCommerce platform built for developer and designers by https://commercejs.com/. I wrote documentation on how to setup Commerce.js SDK in a React.js enviornment. To view that documentation, please click the button that says "code" below. \n\n In this project I made an API call to the back-end to retrieve the data on my store. Then I displayed all of my products by name, image, description, and price. You also have the ability to purchase the items from my store using Chec checkout system. If you'd like to learn more, you can check out https://commercejs.com/. Or if you'd like to start your eCommerce platform with Commerce.js. Check out my guide at https://github.com/JonAmparo/react-commercejs`,
+    img: projectCommerce,
+    demo: 'https://jonamparo.github.io/react-commercejs/',
+    code: 'https://github.com/JonAmparo/react-commercejs',
+    technologies: [
+      { name: 'React.js' },
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Commerce API' },
+      { name: 'Responsiveness' },
+      { name: 'Grids & Flexbox' },
+      { name: 'UI/UX' }
+    ]
+  },
   {
     name: 'Portfolio v2',
     summary:
