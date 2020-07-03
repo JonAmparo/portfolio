@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import { FaEye, FaCode, FaTimes } from 'react-icons/fa';
 import HeaderText from './HeaderText.js';
-import projectForumBlog from '../assets/projectForumBlog.png';
+// import projectForumBlog from '../assets/projectForumBlog.png';
 import projectCar from '../assets/projectCar.png';
 import projectGravitus from '../assets/projectGravitus.png';
-import projectConstructionNicolas from '../assets/projectConstructionNicolas.png';
-import projectJarmicos from '../assets/projectJarmicos.png';
-import projectLeroy from '../assets/projectLeroy.png';
-import projectScandia from '../assets/projectScandia.png';
+// import projectConstructionNicolas from '../assets/projectConstructionNicolas.png';
+// import projectJarmicos from '../assets/projectJarmicos.png';
+// import projectLeroy from '../assets/projectLeroy.png';
+// import projectScandia from '../assets/projectScandia.png';
 import projectFylo from '../assets/projectFylo.png';
-import projectKids from '../assets/projectKids.png';
-import projectIllusarium from '../assets/projectIllusarium.png';
-import projectPneus from '../assets/projectPneus.png';
-import projectAux from '../assets/projectAux.png';
-import projectBien from '../assets/projectBien.png';
-import projectHarbor from '../assets/projectHarbor.png';
-import projectTibbs from '../assets/projectTibbs.png';
+// import projectKids from '../assets/projectKids.png';
+// import projectIllusarium from '../assets/projectIllusarium.png';
+// import projectPneus from '../assets/projectPneus.png';
+// import projectAux from '../assets/projectAux.png';
+// import projectBien from '../assets/projectBien.png';
+// import projectHarbor from '../assets/projectHarbor.png';
+// import projectTibbs from '../assets/projectTibbs.png';
 import projectCommerce from '../assets/projectCommerce.png';
 import projectV2 from '../assets/projectV2.png';
 
@@ -91,6 +91,23 @@ const DATA = [
     ],
   },
   {
+    name: 'Fylo',
+    summary:
+      "This is a project provided by frontendmentor.io. How it works is they give me the images, style guide and tools to do the project. Then I build the project to look like the design. Overall, it was a fun project to do because I didn't have to think about a design. I just put everything together.",
+    img: projectFylo,
+    demo: 'https://jonamparo.github.io/Fylo',
+    code: 'https://github.com/JonAmparo/Fylo',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'SASS' },
+      { name: 'React.JS' },
+      { name: 'Responsiveness' },
+      { name: 'Grids / Flex' },
+      { name: 'Styled Components' },
+    ],
+  },
+  {
     name: 'Car Rental Service',
     summary:
       "For this project, I decided to create it from scratch. The purpose of this Car Rental Application is to handle a business's needs of renting out vehicles to customers, maintaining records and data on vehicle fleet, operating the customer portal website, and reporting the state of the system to the company. \n\n Since I had a lot of time to build the project and wanted to learn as much as possible, I decided to build everything from scratch.",
@@ -108,23 +125,7 @@ const DATA = [
       { name: 'UI/UX' },
     ],
   },
-  {
-    name: 'Fylo',
-    summary:
-      "This is a project provided by frontendmentor.io. How it works is they give me the images, style guide and tools to do the project. Then I build the project to look like the design. Overall, it was a fun project to do because I didn't have to think about a design. I just put everything together.",
-    img: projectFylo,
-    demo: 'https://jonamparo.github.io/Fylo',
-    code: 'https://github.com/JonAmparo/Fylo',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'SASS' },
-      { name: 'React.JS' },
-      { name: 'Responsiveness' },
-      { name: 'Grids / Flex' },
-      { name: 'Styled Components' },
-    ],
-  },
+
   // ,{
   //   name: 'Power Blog',
   //   summary:
@@ -366,7 +367,6 @@ const Project = (props) => {
           <div className='project__overlay'>
             <div className='project__buttons'>
               <button
-                href='#'
                 className='project__button'
                 onClick={() => setProject(true)}
               >
@@ -435,6 +435,12 @@ const Project = (props) => {
               )}
             </div>
           </div>
+          <button
+            onClick={() => setProject(false)}
+            className='backdrop'
+            hidden
+            tabIndex='-1'
+          ></button>
         </div>
       ) : null}
     </React.Fragment>
