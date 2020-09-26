@@ -1,23 +1,14 @@
 import React, { useState } from 'react';
 import { FaEye, FaCode, FaTimes } from 'react-icons/fa';
 import HeaderText from './HeaderText.js';
-import projectForumBlog from '../assets/projectForumBlog.png';
 import projectCar from '../assets/projectCar.png';
 import projectGravitus from '../assets/projectGravitus.png';
-import projectConstructionNicolas from '../assets/projectConstructionNicolas.png';
-import projectJarmicos from '../assets/projectJarmicos.png';
 import projectLeroy from '../assets/projectLeroy.png';
 import projectScandia from '../assets/projectScandia.png';
 import projectFylo from '../assets/projectFylo.png';
-import projectKids from '../assets/projectKids.png';
-import projectIllusarium from '../assets/projectIllusarium.png';
-import projectPneus from '../assets/projectPneus.png';
-import projectAux from '../assets/projectAux.png';
-import projectBien from '../assets/projectBien.png';
-import projectHarbor from '../assets/projectHarbor.png';
-import projectTibbs from '../assets/projectTibbs.png';
 import projectCommerce from '../assets/projectCommerce.png';
 import projectV2 from '../assets/projectV2.png';
+import projectDiner from '../assets/projectDiner.png';
 
 const DATA = [
   // {
@@ -37,18 +28,18 @@ const DATA = [
   //   ]
   // },
   {
-    name: 'Commerce Store',
-    summary: `This project is built using an eCommerce platform built for developer and designers by https://commercejs.com/. I wrote documentation on how to setup Commerce.js SDK in a React.js enviornment. To view that documentation, please click the button that says "code" below. \n\n In this project I made an API call to the back-end to retrieve the data on my store. Then I displayed all of my products by name, image, description, and price. You also have the ability to purchase the items from my store using Chec checkout system. If you'd like to learn more, you can check out https://commercejs.com/. Or if you'd like to start your eCommerce platform with Commerce.js. Check out my guide at https://github.com/JonAmparo/react-commercejs`,
-    img: projectCommerce,
-    demo: 'https://jonamparo.github.io/react-commercejs/',
-    code: 'https://github.com/JonAmparo/react-commercejs',
+    name: 'Diner Restaurant',
+    summary: `This is a project provided by frontendmentor.io. How it works is they give me the images, style guide and tools to do the project. Then I code and build the project until it's as close as pixel perfect it could possibly be. Of course I also added Javascript to enhance the website a lot more.`,
+    img: projectDiner,
+    demo: 'https://jonamparo.github.io/diner/#/',
+    code: 'https://github.com/JonAmparo/diner',
     technologies: [
-      { name: 'React.js' },
-      { name: 'HTML & CSS' },
+      { name: 'React' },
+      { name: 'HTML & SASS' },
       { name: 'JavaScript' },
-      { name: 'Commerce API' },
-      { name: 'Responsiveness' },
-      { name: 'Grids & Flexbox' },
+      { name: 'React Router' },
+      { name: 'Form Validation' },
+      { name: 'Flexbox' },
       { name: 'UI/UX' },
     ],
   },
@@ -108,99 +99,11 @@ const DATA = [
     ],
   },
   {
-    name: 'Car Rental Service',
-    summary:
-      "For this project, I decided to create it from scratch. The purpose of this Car Rental Application is to handle a business's needs of renting out vehicles to customers, maintaining records and data on vehicle fleet, operating the customer portal website, and reporting the state of the system to the company. \n\n Since I had a lot of time to build the project and wanted to learn as much as possible, I decided to build everything from scratch.",
-    img: projectCar,
-    demo: 'https://car-rental-project.herokuapp.com/',
-    code: 'https://github.com/JonAmparo/Car-Rental-Project',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'JQuery' },
-      { name: 'Bootstrap' },
-      { name: 'PHP' },
-      { name: 'MySQL' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Power Blog',
-    summary:
-      'On this project, I was responsible for the functionality of the whole project, the frontend implementation and most of the backend implementation. The goal was to create a website that had the ability to register an account and login. Other functionality consists of creating posts, editing your profile, changing your password, and viewing other registered users.  \n\n During this project I utilized CRUD operations, PHP, JavaScript, AJAX, JQuery and more.',
-    img: projectForumBlog,
-    demo: 'https://jon-forum-blog.herokuapp.com/',
-    code: 'https://github.com/JonAmparo/Forum-Blog',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Kids Corner Day Care',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectKids,
-    demo: 'https://www.kidscornerdaycare.ca/',
-    code: 'private',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'Bootstrap' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Construction Nicolas Avoine',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectConstructionNicolas,
-    demo: 'https://www.constructionnicolasavoine.ca/',
-    code: 'private',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'Bootstrap' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
     name: 'Le Roy Du Pavage',
     summary:
       'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
     img: projectLeroy,
     demo: 'https://leroydupavage.ca/en',
-    code: 'private',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'Bootstrap' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Aux 1000 Fleurs',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectAux,
-    demo: 'https://www.aux1000fleurs.ca/',
     code: 'private',
     technologies: [
       { name: 'HTML & CSS' },
@@ -232,109 +135,35 @@ const DATA = [
     ],
   },
   {
-    name: 'Pneus Jobidon',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectPneus,
-    demo: 'https://www.pneusjobidon.ca/',
-    code: 'private',
+    name: 'Commerce Store',
+    summary: `This project is built using an eCommerce platform built for developer and designers by https://commercejs.com/. I wrote documentation on how to setup Commerce.js SDK in a React.js enviornment. To view that documentation, please click the button that says "code" below. \n\n In this project I made an API call to the back-end to retrieve the data on my store. Then I displayed all of my products by name, image, description, and price. You also have the ability to purchase the items from my store using Chec checkout system. If you'd like to learn more, you can check out https://commercejs.com/. Or if you'd like to start your eCommerce platform with Commerce.js. Check out my guide at https://github.com/JonAmparo/react-commercejs`,
+    img: projectCommerce,
+    demo: 'https://jonamparo.github.io/react-commercejs/',
+    code: 'https://github.com/JonAmparo/react-commercejs',
     technologies: [
+      { name: 'React.js' },
       { name: 'HTML & CSS' },
       { name: 'JavaScript' },
-      { name: 'Bootstrap' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
+      { name: 'Commerce API' },
       { name: 'Responsiveness' },
+      { name: 'Grids & Flexbox' },
       { name: 'UI/UX' },
     ],
   },
   {
-    name: 'Illusarium',
+    name: 'Car Rental Service',
     summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectIllusarium,
-    demo: 'https://www.illusarium.com/',
-    code: 'private',
+      "For this project, I decided to create it from scratch. The purpose of this Car Rental Application is to handle a business's needs of renting out vehicles to customers, maintaining records and data on vehicle fleet, operating the customer portal website, and reporting the state of the system to the company. \n\n Since I had a lot of time to build the project and wanted to learn as much as possible, I decided to build everything from scratch.",
+    img: projectCar,
+    demo: 'https://car-rental-project.herokuapp.com/',
+    code: 'https://github.com/JonAmparo/Car-Rental-Project',
     technologies: [
       { name: 'HTML & CSS' },
       { name: 'JavaScript' },
-      { name: 'Bootstrap' },
       { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Bien Range',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectBien,
-    demo: 'https://bienrange.com/en',
-    code: 'private',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
       { name: 'Bootstrap' },
-      { name: 'JQuery' },
       { name: 'PHP' },
-      { name: 'Laravel' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Jarmicos',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectJarmicos,
-    demo: 'https://www.jarmicos.com/',
-    code: 'private',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'Bootstrap' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Tibbs Locksmithing',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectTibbs,
-    demo: 'https://www.tibbslocksmithing.ca/',
-    code: 'private',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'Bootstrap' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
-      { name: 'Responsiveness' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
-    name: 'Harbour Metals ',
-    summary:
-      'On this project, I was responsible for the UI, and UX designs of the whole project. The goal was to create a beautiful, and modern website that satisfied our client.',
-    img: projectHarbor,
-    demo: 'https://harbourmetals.ca/',
-    code: 'private',
-    technologies: [
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'Bootstrap' },
-      { name: 'JQuery' },
-      { name: 'PHP' },
-      { name: 'Laravel' },
+      { name: 'MySQL' },
       { name: 'Responsiveness' },
       { name: 'UI/UX' },
     ],
