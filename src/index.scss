@@ -649,14 +649,14 @@ body {
 .dark {
   color: $color-white !important;
   background: $color-primary;
-  min-height: 100%;
+  min-height: 100vh;
   padding: 2.5rem;
 }
 
 .light {
   color: $color-primary !important;
   background: $color-white;
-  min-height: 100%;
+  min-height: 100vh;
   padding: 2.5rem;
 
   .secondary-header {

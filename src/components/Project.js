@@ -9,6 +9,7 @@ import projectFylo from '../assets/projectFylo.png';
 import projectCommerce from '../assets/projectCommerce.png';
 import projectV2 from '../assets/projectV2.png';
 import projectDiner from '../assets/projectDiner.png';
+import projectDashboard from '../assets/projectDashboard.png';
 
 const DATA = [
   // {
@@ -82,6 +83,24 @@ const DATA = [
     ],
   },
   {
+    name: 'Social Media Dashboard',
+    summary:
+      "This is a project provided by frontendmentor.io. How it works is they give me the images, style guide and tools to do the project. Then I build the project to look like the design. Overall, it was a fun project to do because I didn't have to think about a design. I just put everything together.",
+    img: projectDashboard,
+    demo:
+      'https://jonamparo.github.io/social-media-dashboard-with-theme-switcher/',
+    code:
+      'https://github.com/JonAmparo/social-media-dashboard-with-theme-switcher/',
+    technologies: [
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'SASS' },
+      { name: 'Responsiveness' },
+      { name: 'Grids / Flex' },
+      { name: 'Styled Components' },
+    ],
+  },
+  {
     name: 'Fylo',
     summary:
       "This is a project provided by frontendmentor.io. How it works is they give me the images, style guide and tools to do the project. Then I build the project to look like the design. Overall, it was a fun project to do because I didn't have to think about a design. I just put everything together.",
@@ -135,22 +154,6 @@ const DATA = [
     ],
   },
   {
-    name: 'Commerce Store',
-    summary: `This project is built using an eCommerce platform built for developer and designers by https://commercejs.com/. I wrote documentation on how to setup Commerce.js SDK in a React.js enviornment. To view that documentation, please click the button that says "code" below. \n\n In this project I made an API call to the back-end to retrieve the data on my store. Then I displayed all of my products by name, image, description, and price. You also have the ability to purchase the items from my store using Chec checkout system. If you'd like to learn more, you can check out https://commercejs.com/. Or if you'd like to start your eCommerce platform with Commerce.js. Check out my guide at https://github.com/JonAmparo/react-commercejs`,
-    img: projectCommerce,
-    demo: 'https://jonamparo.github.io/react-commercejs/',
-    code: 'https://github.com/JonAmparo/react-commercejs',
-    technologies: [
-      { name: 'React.js' },
-      { name: 'HTML & CSS' },
-      { name: 'JavaScript' },
-      { name: 'Commerce API' },
-      { name: 'Responsiveness' },
-      { name: 'Grids & Flexbox' },
-      { name: 'UI/UX' },
-    ],
-  },
-  {
     name: 'Car Rental Service',
     summary:
       "For this project, I decided to create it from scratch. The purpose of this Car Rental Application is to handle a business's needs of renting out vehicles to customers, maintaining records and data on vehicle fleet, operating the customer portal website, and reporting the state of the system to the company. \n\n Since I had a lot of time to build the project and wanted to learn as much as possible, I decided to build everything from scratch.",
@@ -165,6 +168,22 @@ const DATA = [
       { name: 'PHP' },
       { name: 'MySQL' },
       { name: 'Responsiveness' },
+      { name: 'UI/UX' },
+    ],
+  },
+  {
+    name: 'Commerce Store',
+    summary: `This project is built using an eCommerce platform built for developer and designers by https://commercejs.com/. I wrote documentation on how to setup Commerce.js SDK in a React.js enviornment. To view that documentation, please click the button that says "code" below. \n\n In this project I made an API call to the back-end to retrieve the data on my store. Then I displayed all of my products by name, image, description, and price. You also have the ability to purchase the items from my store using Chec checkout system. If you'd like to learn more, you can check out https://commercejs.com/. Or if you'd like to start your eCommerce platform with Commerce.js. Check out my guide at https://github.com/JonAmparo/react-commercejs`,
+    img: projectCommerce,
+    demo: 'https://jonamparo.github.io/react-commercejs/',
+    code: 'https://github.com/JonAmparo/react-commercejs',
+    technologies: [
+      { name: 'React.js' },
+      { name: 'HTML & CSS' },
+      { name: 'JavaScript' },
+      { name: 'Commerce API' },
+      { name: 'Responsiveness' },
+      { name: 'Grids & Flexbox' },
       { name: 'UI/UX' },
     ],
   },
