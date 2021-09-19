@@ -10,6 +10,7 @@ import projectCommerce from '../assets/projectCommerce.png';
 import projectV2 from '../assets/projectV2.png';
 import projectDiner from '../assets/projectDiner.png';
 import projectDashboard from '../assets/projectDashboard.png';
+import projectMaktabat from '../assets/projectMaktabat.png';
 
 const DATA = [
   // {
@@ -28,6 +29,23 @@ const DATA = [
   //     { name: 'UI/UX' }
   //   ]
   // },
+  {
+    name: 'Maktabat MEPI Library',
+    summary: `Medium sized project that was contracted out to me to build the client-side out. I worked with a designer and a back-end developer to complete this project.`,
+    img: projectMaktabat,
+    demo: 'https://maktabatmepi.org/en/',
+    code: 'private',
+    technologies: [
+      { name: 'Ruby' },
+      { name: 'HTML & SASS' },
+      { name: 'JavaScript' },
+      { name: 'React Router' },
+      { name: 'Form Validation' },
+      { name: 'Flexbox' },
+      { name: 'UI/UX' },
+      { name: 'Grid' },
+    ],
+  },
   {
     name: 'Diner Restaurant',
     summary: `This is a project provided by frontendmentor.io. How it works is they give me the images, style guide and tools to do the project. Then I code and build the project until it's as close as pixel perfect it could possibly be. Of course I also added Javascript to enhance the website a lot more.`,
