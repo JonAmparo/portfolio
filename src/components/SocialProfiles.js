@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  // FaLinkedin,
+  FaLinkedin,
   FaGithubSquare,
   FaTwitter,
   // FaFreeCodeCamp,
@@ -12,7 +12,7 @@ const SocialProfiles = () => {
     <React.Fragment>
       <div className='contact'>
         <ul className='contact__list'>
-          {/* <li className="contact__item">
+          <li className="contact__item">
             <a
               href="https://www.linkedin.com/in/jonathanamparo/"
               target="_blank"
@@ -22,7 +22,7 @@ const SocialProfiles = () => {
               <span className="contact__label">Linkedin</span>
               <FaLinkedin />
             </a>
-          </li> */}
+          </li>
           <li className='contact__item'>
             <a
               href='https://github.com/jonamparo'
